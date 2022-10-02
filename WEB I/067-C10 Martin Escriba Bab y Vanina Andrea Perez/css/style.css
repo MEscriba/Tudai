@@ -1,0 +1,96 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5rem;
+    background-image: url(/Images/e200013c8b7f7ed4006af7f337a996a7.jpg);
+    width: 1350px;
+    }
+a:link, a:visited {
+    text-decoration: none;
+    color:#267365;
+}
+
+/*   */
+td{
+background-color: #6ed093;
+    text-align: center;
+    border-bottom: 1rem;
+border: 0.5px solid black;
+}
+
+.abejas{
+    width: 1350px;
+    height: 700px;
+    background-image: url(/Images/ahc3ad-estan-las-abejas-libando-.jpg);
+    opacity: 0.6;
+   }
+
+    .parrafo1 {
+        width: 60%;
+        font-family: 'Lato', sans-serif;
+        text-align: center;       
+       }
+.parrafo2 {
+    width: 60%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+       }
+body{
+    background-color: #d0e961;
+}
+h2, li{
+    font-family: 'Lato', sans-serif;
+   }
+.productos{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    color: #d0e961;
+    font-size: 1.5rem;
+    background-image: url(/Images/productos.jpg);
+    width: 1350px;
+    height: 700px;
+}
+
+.formulario
+{background-color: var(--gris);
+width: min(40rem, 100%); /**utiliza el valor mas pequño**/
+margin: 0 auto; /** se utiliza esto para centrar el formulario cuando el padre no es
+un display flex, o sea por default un block**/
+padding: 2rem;
+border-radius: 1rem;
+}
+
+.formulario fieldset
+{border: none;}
+
+.formulario legend
+{text-align: center;
+font-size: 1.4rem;
+text-transform: uppercase;
+font-weight: 600;
+margin-bottom: 2rem;
+color:#0d0e0d ;
+}
+
+.campo 
+{margin-bottom: 1rem;}
+
+.campo label
+{ color: var(--blanco);
+font-weight: bold;
+margin-bottom: .5rem;
+display: block;}
+
+.campo textarea
+{height: 15rem;}
+
+.input-text
+{width: 100%;
+ border: none;
+ padding: 1rem;
+ border-radius: .5rem;}
+
+ .enviar .boton
+ {width: 100%;}

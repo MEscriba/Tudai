@@ -1,0 +1,26 @@
+
+body{
+background-color: #9ACA9D;
+}
+
+h1{
+    color: #2E3C2F;
+}
+
+h2{
+color: #6C766D;
+}
+
+h3{
+    color:black;
+}
+footer{ font-size: italic;
+color:#89918a;}
+
+p{text-align: justify;
+}
+
+.dif {
+    text-transform: capitalize;
+    color: #6C6A7F;
+}
